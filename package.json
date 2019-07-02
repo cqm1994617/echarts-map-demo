@@ -3,19 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "archiver": "^3.0.0",
+    "axios": "^0.18.0",
+    "echarts": "^4.1.0",
+    "execa": "^1.0.0",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-ssh": "^0.7.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "serve-static": "^1.13.2",
+    "ssh2": "^0.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gulp"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "/preview/map-demo",
   "browserslist": [
     ">0.2%",
     "not dead",

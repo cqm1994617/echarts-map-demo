@@ -1,0 +1,9 @@
+Last login: Wed Mar 27 17:51:11 2019 from 115.238.109.29
+
+Welcome to Alibaba Cloud Elastic Compute Service !
+
+rm -rf /home/xiaoyan/web/preview/map-demo/*
+exit
+[xiaoyan@iZbp1ecryxrtnd0t4my6oqZ ~]$ rm -rf /home/xiaoyan/web/preview/map-demo/* [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K*
+[xiaoyan@iZbp1ecryxrtnd0t4my6oqZ ~]$ exit
+logout

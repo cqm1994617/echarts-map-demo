@@ -1,25 +1,57 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import MapView from './components/Map'
 
 class App extends Component {
+
+  state = {
+    option: {
+      title: {
+        text: "中国地图",
+        left: "center",
+        textStyle: {
+          color: "#FFFFFF",
+          fontSize: 25
+        }
+      },
+      backgroundColor: "#404a59",
+      animationDuration: 1000,
+      animationEasing: "cubicOut",
+      animationDurationUpdate: 1000,
+      geo: {
+        map: "china",
+        roam: true,
+        label: {
+          emphasis: {
+            textStyle: {color: "#eee"}
+          }
+        },
+        top: "middle",
+        left: "center",
+        itemStyle: {
+          position: "center",
+          normal: {
+            areaColor: "#323c48",
+            borderColor: "#111"
+          },
+          emphasis: {
+            areaColor: "#2a333d",
+            textStyle: {
+              color: "#fff"
+            }
+          }
+        }
+      }
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <MapView
+          option={this.state.option}
+        >
+        </MapView>
       </div>
     );
   }
